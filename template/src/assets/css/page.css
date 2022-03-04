@@ -1,0 +1,181 @@
+.mhead {
+  height: 64px;
+  line-height: 64px;
+  box-shadow: 0 2px 6px #f3f3f3;
+  background: #fff;
+}
+
+.mhead h3 {
+  line-height: 64px !important;
+  margin: 0 0 0 16px !important;
+}
+
+.mhead_menu {
+  margin-right: 16px;
+}
+
+.logo {
+  height: 48px;
+  width: 90%;
+  margin: 8px 5%;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.logo p {
+  line-height: 48px;
+  color: #ccc;
+  text-align: center;
+  font-weight: bold;
+}
+
+.mmenu {
+  width: 200px;
+  border-radius: 4px;
+}
+
+.mcontent {
+  padding: 16px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.hello_page {
+  text-align: center;
+  padding-top: 48px;
+}
+
+.tec-list {
+  width: 360px;
+  margin: 16px auto!important;
+}
+
+/* demo */
+.todobox {
+  width: 480px;
+  margin: 16px auto;
+  border: solid 1px #dedede;
+  border-radius: 6px;
+  overflow: hidden;
+  padding-bottom: 6px;
+}
+
+.todobox h1 {
+  text-align: center;
+  line-height: 64px;
+  font-size: 26px;
+}
+
+.iptbox {
+  margin: 16px auto;
+  display: flex;
+  padding: 16px;
+}
+
+.iptbox input {
+  height: 30px;
+  border: solid 1px #dedede;
+  flex: 6;
+}
+
+.iptbox button {
+  flex: 1;
+}
+
+.todo-item {
+  border-bottom: solid 1px #dedede;
+  overflow: hidden;
+}
+
+.todo-item:last-of-type {
+  border-bottom: none;
+}
+
+.todo-item-view {
+  display: flex;
+  background: #fff;
+  transition: all 0.6s;
+  padding: 16px;
+}
+
+.todo-item-view .word {
+  flex: 8;
+}
+
+.todo-item-view .del {
+  flex: 1;
+  position: relative;
+  display: none;
+}
+
+.todo-item-view:hover,
+.todo-item.edit {
+  background: #f1f1f1;
+}
+
+.todo-item.edit .iptbox {
+  padding: 0 16px;
+}
+
+.todo-item.edit .iptbox button {
+  background-color: rgb(59, 209, 255);
+  color: #fff;
+}
+
+.todo-item.edit .iptbox button:last-of-type {
+  background-color: rgb(250, 130, 130);
+}
+
+.todo-item-view:hover .del {
+  display: block;
+}
+
+.todo-item-view .del::before {
+  display: block;
+  content: "X";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  margin: -12px 0 0 -12px;
+  background: #ccc;
+  line-height: 24px;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+}
+
+.todo-item-view .del:hover::before {
+  background: #f00;
+}
+
+.todo-item-view input[type="checkbox"] {
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin: 2px 8px 0 0;
+}
+
+.foot {
+  padding: 8px 16px;
+  text-align: right;
+}
+
+.foot button {
+  padding: 6px;
+  border-radius: 30px;
+  color: #fff;
+  margin: 0 6px;
+}
+
+.foot button:nth-of-type(1) {
+  background-color: rgb(255, 97, 97);
+}
+.foot button:nth-of-type(2) {
+  background-color: rgb(88, 193, 253);
+}
