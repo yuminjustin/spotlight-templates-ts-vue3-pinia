@@ -1,6 +1,6 @@
 <template>
   <div class="hello_page">
-    <a-typography-title :heading="2"> Hello three! </a-typography-title>
+    <a-typography-title :heading="2"> Hello there! </a-typography-title>
     <a-row class="tec-list" :gutter="{ md: 8, lg: 24, xl: 32 }">
       <a-col :span="6">
         <div>
